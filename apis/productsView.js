@@ -1,13 +1,15 @@
 const express = require('express')
 const router = express.Router()
 const bodyParser = require('body-parser')
+
+const { productsController } = require('../controllers')
 const {
   getProducts,
   getProduct,
   createProduct,
   updateProduct,
   deleteProduct
-} = require('../controllers/productsController')
+} = productsController
 
 // create application/json parser
 const jsonParser = bodyParser.json()
