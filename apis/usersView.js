@@ -14,7 +14,7 @@ const {
  * components:
  *   schemas:
  *     User:
- *       type: array
+ *       type: object
  *       required:
  *         - name
  *         - lastName

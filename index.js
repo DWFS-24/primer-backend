@@ -1,8 +1,6 @@
 const express = require('express')
 const app = express()
 const dotenv = require('dotenv');
-const swaggerJsdoc = require("swagger-jsdoc");
-const swaggerUi = require("swagger-ui-express");
 const swagger = require("./swagger")
 // const port = 3000
 const router = require('./apis')
